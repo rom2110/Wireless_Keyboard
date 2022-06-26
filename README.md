@@ -1,1 +1,2 @@
 # Wireless_Keyboard
+Change SERVER_IP in Master.java to the ip of the computer you want to control, and then run Master.java on the computer you want to use as keyboard input and Slave.java on the computer you want to control remotely. 
