@@ -80,7 +80,7 @@ public class MyKeyListener implements KeyListener{
 
     @Override
     public void keyTyped(KeyEvent arg0) {
-        
+        System.out.println("hello");
     }
 
     private void writeKey(boolean pressed, int keyCode) throws Exception{

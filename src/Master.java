@@ -14,6 +14,7 @@ public class Master extends JFrame{
         this.addKeyListener(keyListener);
         this.setResizable(false);
         this.setVisible(true);
+        this.setFocusTraversalKeysEnabled(false);
     }
     public static void main(String args[]) throws Exception{
         Socket socket = new Socket(SERVER_IP, SERVER_PORT);
