@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 import java.io.*;
 
 public class Master extends JFrame{
-    final static String SERVER_IP = "192.168.3.105";
+    final static String SERVER_IP = "192.168.3.109";
     final static int SERVER_PORT = 12300;
 
     Master(MyKeyListener keyListener){
